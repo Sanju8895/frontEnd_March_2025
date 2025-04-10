@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Dropdown with Select and option -->
+
+
+    <input type="text" list="list1">
+    <datalist id="list1">
+        <option value="Item1"></option>
+        <option value="Item2"></option>
+        <option value="Item3"></option>
+        <option value="Item4"></option>
+    </datalist>
+
+    <textarea name="" id=""></textarea>
+
+
+    <style>
+        fieldset{
+            width:500px;
+        }
+    </style>
+    <form  autocomplete="off">
+        <fieldset>
+            <legend>Form A</legend>
+            <label for="user">UserName</label> <br>
+            <input type="text" id="user"> <br> <br>
+            <label for="pass">Password</label> <br>
+            <input type="password" id="pass"> <br>
+            <input type="submit">
+        </fieldset>
+
+        <fieldset >
+            <legend>Form B</legend>
+            <label for="user">UserName</label> <br>
+            <input type="text" id="user"> <br> <br>
+            <label for="pass">Password</label> <br>
+            <input type="password" id="pass"> <br>
+            <input type="submit">
+        </fieldset>
+
+    </form>
+</body>
+</html>

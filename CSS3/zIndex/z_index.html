@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            border:3px solid black;
+            position: relative;
+            height:220px;
+            width:220px;
+        }
+        .demo{
+            height:200px;
+            width:200px;
+           position: absolute;
+        }
+        .demo1{
+            background-color: red;
+        }
+        .demo2{
+            background-color: green;
+           
+        }
+        .demo3{
+            background-color: yellow;
+            z-index: 2;
+        }
+        .demo4{
+            background-color: skyblue;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+    <div class="demo demo1">Content 1</div>
+    <div class="demo demo2">Content 2</div>
+    <div class="demo demo3">Content 3</div>
+    <div class="demo demo4">Content 4</div>
+</div>
+</body>
+</html>
